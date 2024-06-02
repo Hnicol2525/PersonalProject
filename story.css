@@ -1,0 +1,90 @@
+body, html {
+    padding:0;
+    margin:0;
+    font-family: Poppins, sans-serif;
+    font-size:3vh;
+}
+
+.parallax {
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.scroll-watcher{
+    height: 50px;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    background-color: black;
+    width: 100%;
+    scale: 0 1;
+    transform-origin: left;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+@keyframes scroll-watcher{
+    to {scale: 1 1;}
+}
+
+#section1 {
+    background-image: url('Consumertitle.png'); 
+}
+
+#section2 {
+    background-image: url('Controllertitle.png'); 
+}
+
+#section3 {
+    background-image: url('Constructortitle.png'); 
+}
+
+.content-section {
+    height: 50vh;
+    padding-left: 10vw;
+    padding-right:10vw;
+    margin-left:14vw;
+    margin-right:14vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+
+}
+
+img{
+    width:400px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    fit:center;
+    border-radius: 5px;
+}
+
+.images{
+    width:400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.arrange{
+    width:400px;
+    height: 400px;
+    position: absolute;
+}
+

@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+
+.subtitle{
+    text-align: center;
+    padding-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 30pt;
+    color: black;
+
+}
+.title{
+    text-align: center;
+    padding-top: 5vh;
+    font-family: 'Poppins', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style:normal;
+    font-size: 60pt;
+    color: black;
+
+}
+.image-row {
+    padding-top: 0;
+    margin:80px;
+    display: flex;
+    justify-content: space-between; 
+  }
+
+
+.consumer{
+    width:400px;
+    height: 400px;
+    background-image: url('consumer.GIF');
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.controller{
+    width:400px;
+    height: 400px;
+    background-image: url('controller.GIF');
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.constructor{
+    width:400px;
+    height: 400px;
+    background-image: url('constructor.GIF');
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.consumer: hover {
+    background-image: url('consumer.GIF');
+}
